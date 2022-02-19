@@ -1,0 +1,16 @@
+{
+  "name": "Fruit Smash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Samantha Misurda",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  }
+}

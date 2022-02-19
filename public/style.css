@@ -1,0 +1,79 @@
+@import url(https://use.typekit.net/mud8evm.css);
+ @font-face {
+     font-family: 'Montserrat';
+     src: url(/fonts/montserrat-regular-webfont.woff2) format("woff2");
+     font-weight: normal;
+     font-style: normal;
+}
+ @font-face {
+     font-family: 'ITCBlairBold';
+     src: url(/fonts/ITCBlairBold.otf);
+     font-weight: normal;
+     font-style: normal;
+}
+ .jumbotron{
+     padding: 0;
+     margin: 0;
+}
+ #hero-image{
+     --image-width: 1920;
+     --image-height: 1146;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: calc(100vw / (var(--image-width) / var(--image-height)));
+}
+ #hero-text{
+     font-family: "ITCBlairBold", Helvetica, sans-serif;
+     text-align: center;
+     padding-top: 20%;
+}
+ #hero-text > button > span {
+     margin-left: 2em;
+}
+ #brush-font{
+     font-family: "flood-std", Helvetica, sans-serif;
+     font-size: 5em;
+}
+ #middle-image-container {
+     text-align: center;
+     margin-top: -17%;
+}
+ #middle-image {
+     width: 60%;
+}
+ #product-box-image{
+     width: 100%;
+}
+ #product-box-content h2{
+     font-family: "ITCBlairBold", Helvetica, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 0.01em;
+}
+ #product-box-content p{
+     font-size: .9em;
+     line-height: 1.75em;
+     font-family: "Montserrat", Helvetica, sans-serif;
+     font-weight: 100;
+     margin-bottom: 2em;
+}
+ .bolded-config-text {
+     font-weight: bold;
+}
+ #product-box-content > button > span {
+     margin-left: 4em;
+}
+ button{
+     width: 20em;
+     height: 3em;
+     background: #1B2533;
+     color: #ffffff;
+     text-transform: uppercase;
+     border: 0.1em solid #1B2533;
+     letter-spacing: .1em;
+     font-size: 0.65em;
+     text-align: left;
+     padding-left: 1.85em;
+     font-family: "ITCBlairBold", Helvetica, sans-serif;
+}
+ 
